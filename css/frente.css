@@ -131,3 +131,9 @@ footer div{
 .contacto:hover{
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.308);
 }
+
+@media (max-width: 450px){
+    main{
+        width: 100%;
+    }
+}
