@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgba(197, 223, 223, 0.61);
+}
+
+header{
+    background-image: linear-gradient(to top, rgba(0, 0, 255, 0.781), rgb(104, 104, 211), rgb(188, 188, 231));
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    color: white;
+}
+
+header div{
+    width: 20%;
+    margin: auto;
+    
+}
+
+header h1{
+    box-shadow: 15px 8px 12px 0px #00000057;
+    font-size: 2.5em;
+}
+
+header img{
+    width: 100%;
+    border-radius: 40%;
+}
+
+nav{
+    background-color: rgba(0, 0, 255, 0.781);
+}
+
+
+nav a{
+    color: rgb(16, 233, 186);
+    padding: 0% 2%;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    background-image: linear-gradient(to right, rgb(115, 115, 209), transparent);
+}
+
+main{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    border-radius: 0% 0% 4% 4%;
+    margin-bottom: 2%;
+    box-shadow: 10px 3px 3px 1px #0000000a;
+}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: rgb(31, 43, 204);
+}
+
+main p{
+    text-indent: 5%;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+main img{
+    width: 100%;
+}
+
+main ul, ol{
+    margin: 0% 20% 0% 20%;
+    list-style: inside;
+
+}
+
+section{
+    padding: 5%;
+}
+
+section h1{
+    background-image: linear-gradient(to right, rgb(221, 185, 185), transparent);
+    font-size: 1.7em;
+    text-indent: 5%;
+    color: rgba(108, 175, 175, 0.945);
+    text-shadow: 11px 8px 11px rgb(0 0 0 / 29%);
+}
+
+section h2{
+    background-image: linear-gradient(to right, rgba(128, 128, 128, 0.397), transparent);
+    color: darkgreen;
+    margin-top: 2%;
+}
+
+
+
+footer{
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    background-image: linear-gradient(to bottom, rgba(190, 230, 230, 0.61), transparent);
+}
+
+footer div{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.contacto{
+    width: 45%;
+    margin-left: 2%;
+    text-align: justify;
+    display: inline-block;
+    
+    border-radius: 10%;
+}
+
+.contacto:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.308);
+}
